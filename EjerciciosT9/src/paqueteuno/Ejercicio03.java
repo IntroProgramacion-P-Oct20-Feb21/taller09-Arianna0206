@@ -34,7 +34,7 @@ public class Ejercicio03 {
                 elementosArribaMedia = elementosArribaMedia + 1;
             } else {
                 if (valorArreglo < mediaAritmetica) {
-                    elementosAbajoMedia = elementosAbajoMedia + 1;
+                    elementosAbajoMedia = elementosAbajoMedia + 1; 
                 }
             }
 

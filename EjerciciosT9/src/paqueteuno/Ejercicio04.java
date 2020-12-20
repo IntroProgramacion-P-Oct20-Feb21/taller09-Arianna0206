@@ -44,7 +44,7 @@ public class Ejercicio04 {
                     }
                 }
             }
-            System.out.printf("%s",reporteFinal);   
+            System.out.printf("%s",reporteFinal);    
         }
     }
         

@@ -34,7 +34,7 @@ public class Ejercicio05 {
                 estudiantess[i] = estudiantes[i].charAt(0);
                 estudiantes1[i] = estudiantes1[i]+estudiantess[i];
                 if(in.equals(estudiantes1[i])){
-                    bandera = false;
+                    bandera = false; 
                 }
             }
         }

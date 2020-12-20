@@ -36,7 +36,7 @@ public class Ejercicio02 {
                         if ((respuesta >= 16) && (respuesta <= 20)) {
                             valoresRangos[3] = valoresRangos[3] + 1;
                         }else { 
-                                valoresRangos[4] = valoresRangos[4] + 1;
+                                valoresRangos[4] = valoresRangos[4] + 1; 
                             }
                         
 
