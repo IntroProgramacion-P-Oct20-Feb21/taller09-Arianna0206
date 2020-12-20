@@ -24,15 +24,15 @@ public class Ejercicio05 {
         String[] estudiantes1 = {"","","","","","",""};
         String inicial;
         String in;
-        char[] estudiantess = new char[7];
+        char[] estudiantes2 = new char[7];
         boolean bandera = true;
         while(bandera){
             System.out.println("Ingrese una letra");
             inicial = entrada.nextLine();
             in = inicial.toUpperCase();
             for(int i = 0; i < estudiantes.length; i++){
-                estudiantess[i] = estudiantes[i].charAt(0);
-                estudiantes1[i] = estudiantes1[i]+estudiantess[i];
+                estudiantes2[i] = estudiantes[i].charAt(0);
+                estudiantes1[i] = estudiantes1[i]+estudiantes2[i];
                 if(in.equals(estudiantes1[i])){
                     bandera = false; 
                 }
