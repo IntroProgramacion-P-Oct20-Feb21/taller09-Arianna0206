@@ -16,22 +16,26 @@ public class Ejercicio01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int[] respuestas = {1, 10, 11, 12, 12, 13, 16, 17, 18, 8, 9, 10};
+        int[] respuestas = {1, 10, 11, 12, 12, 13, 16, 17, 18, 8, 9, 10, 1, 1};
         String[] rangos = {"1-5", "6-10", "11-15", "16-20"};
-        int[] valoresRangos = new int[4];
-        int respuesta;
+        int[] valoresRangos = new int[4]; // {1, 1, 4, 2}
+        int respuesta; 
         
-        for (int i = 0; i < respuestas.length; i++) {
-            respuesta = respuestas[i];
+        for (int i = 0; i < respuestas.length; i++) {// respuesta.length = 12
+            respuesta = respuestas[i];//[8] 18
+                    //V        &&       F
             if ((respuesta >= 1) && (respuesta <=5)){
                 valoresRangos[0] = valoresRangos[0] + 1;
             }else{
+                     // V            &&        F
                 if ((respuesta >= 6) && (respuesta <=10)){
                     valoresRangos[1] = valoresRangos[1] + 1;
                 }else{
+                            //V           &&       F
                     if ((respuesta >= 11) && (respuesta <=15)){
                         valoresRangos[2] = valoresRangos[2] + 1;
                     }else{
+                               //V            &&         V
                         if ((respuesta >= 16) && (respuesta <=20)){
                             valoresRangos[3] = valoresRangos[3] + 1;
                         }
