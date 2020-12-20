@@ -27,17 +27,20 @@ public class Ejercicio04 {
             if ((promedios[i] >= 0) && (promedios[i] <= 5.9)){
                 reporteFinal = String.format("%s promedio: %.2f"
                         + "promedio Cualitativo Regular\n",
-                        estudiantes[i],promedios[i],promediosCualitativos[i]);
+                        estudiantes[i],
+                        promedios[i],
+                        promediosCualitativos[i]);
             }else{
                 if((promedios[i] >= 6) && (promedios[i] <= 8.9)) {
                     reporteFinal = String.format("%s promedio: %.2f "
                             + "promedio Cualitativo Bueno\n", 
-                            estudiantes[i],promedios[i],
+                            estudiantes[i],
+                            promedios[i],
                             promediosCualitativos[i]);
                 }else{
                     if((promedios[i] >= 9) && (promedios[i] <= 10)) {
-                        reporteFinal = String.format("%s promedio: %.2f promedio "
-                                + "Cualitativo Sobresaliente\n", 
+                        reporteFinal = String.format("%s promedio: %.2f "
+                                + "promedio Cualitativo Sobresaliente\n", 
                                 estudiantes[i],
                                 promedios[i],
                                 promediosCualitativos[i]); 
